@@ -81,7 +81,7 @@ while ret:
                             blue_index, green_index, red_index, yellow_index = 0, 0, 0, 0
                             paintWindow[67:, :, :] = 255
                         else:
-                            colorIndex = i - 1  # Adjusting for CLEAR button
+                            colorIndex = i - 1  
                         break
             else:
                 [bpoints, gpoints, rpoints, ypoints][colorIndex][[blue_index, green_index, red_index, yellow_index][colorIndex]].appendleft(fore_finger)
