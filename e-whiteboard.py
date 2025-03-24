@@ -15,7 +15,6 @@ green_index = 0
 red_index = 0
 yellow_index = 0
 
-# The kernel to be used for dilation purpose 
 kernel = np.ones((5, 5), np.uint8)
 
 colors = [(255, 0, 0), (0, 255, 0), (0, 0, 255), (0, 255, 255)]
